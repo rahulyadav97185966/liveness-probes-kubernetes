@@ -1,5 +1,6 @@
 # liveness-probes-kubernetes
   this repository contains an example explanation of the use of probes specially liveness probes.
+  Official Doc : https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/
 
 # what is Probes in kubernetes and Why we use it in production level Scenario.
      As Probes name suggest the probes is used for testing and checking the health of any circuit in electronics using that ammeter or other. similarly in kubernetes we use probes for the health check and testing of application (pods) . for Example, We developed one application and run it application is prefectly coded and it does not have any errors but when user is using it he is unable to access that application in these case we have to reboot the application of we have to find the errors in the application. (like when our laptop gets stuck we do reboot.
